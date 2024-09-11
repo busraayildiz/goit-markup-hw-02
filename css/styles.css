@@ -154,11 +154,14 @@ button:focus {
     top: 2988px;
 }
 
-.footer p {
+.footer-p {
     color: #f4f4fd;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .footer-logo {
+    font-family: "Raleway";
     font-style: normal;
     text-transform: uppercase;
     font-weight: 700;
