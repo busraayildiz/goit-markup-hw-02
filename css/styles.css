@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455 background-color: #ffffff;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -17,6 +18,7 @@ body {
 
 .spa {
     font-weight: 700;
+    font-family: "Raleway";
     font-style: normal;
     color: #2e2f42;
 }
@@ -35,14 +37,14 @@ body {
 }
 
 .page-menu-list:hover {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .page-menu-list:focus {
     color: #404bbf;
 }
 
-.address-list li {
+address{
     font-style: normal;
 }
 
