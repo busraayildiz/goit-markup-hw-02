@@ -68,47 +68,48 @@ address{
     color: #404bbf;
 }
 
-.section1 {
+.main-content-section1 {
     background-color: #2E2F42;
 }
 
-h1 {
-    color: #ffffff;
+.main-title-first {
     font-size: 56px;
-    font-weight: 700;
-    line-height: 3.75em;
-    letter-spacing: 2%;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff
 }
 
-button {
+.main-btn {
+    font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-button:hover,
-button:focus {
+.main-btn:hover,
+.main-btn:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
 
-.section2 {
+.main-content-section2 {
     list-style-type: none;
 }
 
-.section2-list {
+.main-title {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
 }
 
-.section2-p {
+
+.main-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -116,40 +117,45 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
-.section3 {
+.main-content-section3 {
     background-color: #F4F4FD;
 }
 
-.team-members {
-    list-style-type: none;
-}
-
-.team-members h3 {
+.main-third-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2em;
 }
 
-.team-members p {
-    color: #434455;
+.main-card-3 {
+    background-color: #FFFFFF;
+}
+
+.main-after-title{
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.section4 h2 {
+.main-fourth-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 2;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.section4 p {
+.section4-text {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio {
